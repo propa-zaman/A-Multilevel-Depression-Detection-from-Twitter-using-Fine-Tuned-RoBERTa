@@ -19,6 +19,8 @@ The dataset used in this project is derived from Twitter, comprising posts class
 
 ## Model
 The project utilizes the RoBERTa model, which has been fine-tuned to better understand the nuances of Twitter language and depression indicators. The model has been enhanced with additional dense layers and trained on a large corpus of data.
+![Model](Proposed Model/model.png)
+
 
 ## Installation
 Instructions for setting up the project environment:
@@ -33,7 +35,11 @@ python detect_depression.py [options]
 
 
 ## Results
-Our model demonstrates a high degree of accuracy in classifying Twitter posts into mild, moderate, and severe depression categories. [Include any specific results, charts, or findings here.]
+Our model demonstrates a high degree of accuracy in classifying Twitter posts into mild, moderate, and severe depression categories. 
+![Performance on Test Dataset](Result/Performance on Test Dataset.png)
+![Performance on Validation Dataset](Result/Performance on Validation Dataset.png)
+
+
 
 ## Contributing
 We welcome contributions from the community. If you wish to contribute, please follow these steps:
@@ -43,5 +49,3 @@ We welcome contributions from the community. If you wish to contribute, please f
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
 
-## License
-[Specify the license under which your project is released, if applicable.]
