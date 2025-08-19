@@ -15,8 +15,7 @@ This project aims to detect and analyze different levels of depression (mild, mo
 Depression is a significant global health issue. Early detection and treatment are crucial in mitigating its impacts. This project utilizes a fine-tuned RoBERTa model to identify multilevel depression from Twitter data, showcasing an accuracy of 90%. The methodology enhances understanding of depression severity and can significantly aid in mental health research and treatment.
 
 ## Dataset
-The dataset used in this project is derived from Twitter, comprising posts classified into three categories: mild, moderate, and severe, based on the level of depression indicated. A pre-existing twitter dataset in annotated into multiple levels of depression so that the model can be trained for this specific task.
-
+The dataset used in this project is derived from Twitter, comprising posts classified into three categories: mild, moderate, and severe, based on the level of depression indicated. A pre-existing Twitter dataset was annotated into multiple levels of depression so that the model could be trained for this specific task. The original dataset can be accessed here: https://github.com/sunlightsgy/MDDL
 ## Model
 The project utilizes the RoBERTa model, which has been fine-tuned to better understand the nuances of Twitter language and depression indicators. The model has been enhanced with additional dense layers and trained on a large corpus of data.
 
