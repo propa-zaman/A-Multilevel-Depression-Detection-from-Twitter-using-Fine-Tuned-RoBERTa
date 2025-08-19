@@ -38,11 +38,19 @@ Our model demonstrates a high degree of accuracy in classifying Twitter posts in
 
 
 
-## Contributing
-We welcome contributions from the community. If you wish to contribute, please follow these steps:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a new Pull Request.
+## Citation
+
+If you use the results or methods from our research in your work, please cite our paper:
+
+```bibtex
+@INPROCEEDINGS{10303632,
+  author={Zaman, Afra and Ferdous, Syeda Sunjida and Akhter, Nazneen and Ena, Tabassum Ibnat and Nabi, Md. Mahmudun and Asma, Salma Akter},
+  booktitle={2023 International Conference on Information and Communication Technology for Sustainable Development (ICICT4SD)}, 
+  title={A Multilevel Depression Detection from Twitter using Fine-Tuned RoBERTa}, 
+  year={2023},
+  pages={280-284},
+  doi={10.1109/ICICT4SD59951.2023.10303632}
+} 
+
+
 
